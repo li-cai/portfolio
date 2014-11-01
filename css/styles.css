@@ -73,7 +73,7 @@ div.content {
     position: relative;
     margin: auto;
     width: 65%;
-    min-width: 1000px;
+    min-width: 900px;
 }
 
 #logo {
@@ -124,6 +124,30 @@ ul#navigation li a#current:hover {
 
 ul#navigation li a:hover {
     border-bottom: 2.7px solid #ffffff;
-    transition: none;
+    transition: border-bottom 0.2s linear;
     opacity: 1.0;
+}
+
+#resume {
+    margin-top: 15px;
+    opacity: 0.80;
+}
+
+#download {
+    display: inline-block;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 0.1em;
+}
+
+.preview:hover {
+    cursor: pointer;
+    opacity: 0.45;
+    transition: opacity 0.2s linear;
+}
+
+.design {
+    margin-top: 1.5em;
 }
