@@ -169,11 +169,11 @@ section#design {
     opacity: 0.4;
 }
 
-#contact {
-    background-color: #2e3c5d;
+#about {
+    background-color: #248a5e;
 }
 
-#contact .content {
+#about .content {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -189,7 +189,7 @@ img.profile {
     margin-bottom: 0;
 }
 
-section#contact-info {
+section#about-info {
     color: #fff !important;
     height: 250px;
     /*overflow: scroll;*/
