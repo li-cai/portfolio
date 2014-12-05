@@ -13,6 +13,10 @@ h1 {
     font-size: 3em;
 }
 
+a {
+    text-decoration: none;
+}
+
 .heading {
     margin-top: 60px;
     margin-bottom: 2px;
@@ -97,17 +101,14 @@ nav.navigation a:hover {
 
 img.thumbnail {
     width: 100%;
-/*    width: 32.4%;
-    margin-bottom: 8px;
-    margin-right: 9px;*/
     transition: all 0.3s ease;
     overflow: hidden;
 }
 
 .imgwrapper {
-    width: 32.4%;
-    margin-bottom: 8px;
-    margin-right: 9px;
+    width: 32.1%;
+    margin-bottom: 0.5%;
+    margin-right: 0.9%;
     display: inline-block;
     overflow: hidden;
 }
@@ -129,4 +130,32 @@ img.right {
 section#design {
     margin-top: 150px;
     margin-bottom: 150px;
+}
+
+.welcome {
+    color: #fff;
+    font-size: 3.7em;
+    margin-top: 20%;
+    margin-bottom: 0.5%;
+}
+
+.blurb {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.button {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.0em;
+    border: 3px solid #ffffff;
+    border-radius: 800px;
+    padding: 7px 37px;   
+    margin-top: 7px;
 }
