@@ -13,6 +13,10 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    font-size: 2.8em;
+}
+
 a {
     text-decoration: none;
 }
@@ -135,7 +139,7 @@ section#design {
 .welcome {
     color: #fff;
     font-size: 3.7em;
-    margin-top: 20%;
+    margin-top: 22%;
     margin-bottom: 0.5%;
 }
 
@@ -158,4 +162,35 @@ section#design {
     border-radius: 800px;
     padding: 7px 37px;   
     margin-top: 7px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.4;
+}
+
+#contact {
+    background-color: #2e3c5d;
+}
+
+#contact .content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+img.profile {
+    margin-right: 40px;
+    float: left;
+}
+
+.white-heading {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section#contact-info {
+    color: #fff !important;
+    height: 250px;
+    /*overflow: scroll;*/
 }
