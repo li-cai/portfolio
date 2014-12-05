@@ -1,0 +1,299 @@
+html {
+    background-color: transparent;
+    background-image: url('../media/coralreef.jpg');
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+body {
+    color: #ffffff;
+    font-family: 'Muli', Verdana, sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bad Script', cursive;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 3.2em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#title {
+    margin-top: 0.67em;
+    margin-bottom: 0;
+    line-height: 1em;
+}
+
+#subtitle {
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    line-height: 1.2em;
+}
+
+#blurbbox {
+    width: 580px;
+    margin: auto;
+    margin-bottom: 50px
+}
+
+#blurb {
+    line-height: 1.4em;
+    font-size: 1.5em;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+
+div.wrapper {
+    width: 100%;
+}
+
+div.content {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    position: relative;
+/*    margin: auto;
+    width: 65%;
+    min-width: 900px;*/
+}
+
+div.navcontent, div.content {
+    width: 900px;
+    margin: auto;
+}
+
+.logo {
+    display: block;
+    clear: left;
+    margin: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+#midwrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -270px;
+}
+
+#midcontent {
+    padding: 0;
+    height: 540px;   
+}
+
+ul#navigation {
+    padding: 0;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+ul#navigation li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.current {
+    border-bottom: 2.7px solid #ffffff;
+}
+
+ul#navigation li a#current:hover {
+    cursor: default;
+}
+
+ul#navigation li a:hover {
+    border-bottom: 2.7px solid #ffffff;
+    transition: border-bottom 0.1s linear;
+    opacity: 1.0;
+}
+
+nav#topnav {
+    text-align: right;
+}
+
+.navbar {
+    margin-top: 25px;
+    border-top: 2px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    /*background-color: rgba(255, 255, 255, 0.4);*/
+}
+
+.navcontent {
+   /* border-bottom: 2px solid rgba(255, 255, 255, 0.8);*/
+}
+
+.navlink {
+    display: inline-block;
+    /*border-bottom: none;*/
+    margin-top: 80px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    opacity: 1;
+}
+
+#resume {
+    margin-top: 5px;
+    opacity: 0.80;
+    width: 100%;
+}
+
+#download {
+    display: inline-block;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 0.1em;
+}
+
+.preview {
+    transition: 0.3s ease all;
+}
+
+.preview:hover {
+    cursor: pointer;
+}
+
+.design {
+    margin-top: 1.5em;
+}
+
+.underline {
+    border-bottom: 2px solid #ffffff;
+}
+
+.underline:hover {
+    opacity: 0.5;
+}
+
+div.about {
+    padding: 2px 0px 2px 0px;
+    margin: 0px 150px 0px 150px;
+}
+
+.screenshot {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.back {
+    float: right;
+}
+
+ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.img-list li {
+    display: inline-block;
+    height: 188px;
+    width: 295px;
+    position: relative;
+}
+
+span.caption {
+    background-color: rgba(44, 62, 80, 0.9);
+    color: #ffffff;
+    font-size: 1.2em;
+    height: 188px;
+    width: 295px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: table;
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+span.caption span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul.img-list li:hover span.caption {
+    opacity: 1;
+}
+
+div.previews {
+    margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+    div.content {
+        width: 88%;
+    }
+
+    div.about {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #blurbbox {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    #wings {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    ul#navigation {
+        margin-bottom: 30px;
+    }
+
+    ul#navigation li {
+        display: block;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ffffff;
+        transition: 0.4s ease all !important;
+    }
+
+    ul#navigation li:active, ul#navigation li:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    ul#navigation li:first-child {
+        border-top: 1px solid #ffffff;
+    }
+
+    ul#navigation li a, ul#navigation li a:hover  {
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .preview {
+        width: 100%;
+    }
+}
