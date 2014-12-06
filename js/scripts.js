@@ -14,3 +14,13 @@ $(document).ready(function() {
     });
 
 });
+
+function showDiv(id) {
+    $('#main').fadeOut();
+    $(id).fadeIn();
+}
+
+function hideDiv(id) {
+    $(id).fadeOut();
+    $('#main').fadeIn();
+}
