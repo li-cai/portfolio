@@ -2,6 +2,7 @@ body {
     font-family: 'Muli', Verdana, sans-serif;
     margin: 0;
     color: #6e2b34;
+    background-color: #5fa7ad;
     position: relative;
 }
 
@@ -50,6 +51,7 @@ a:hover {
     width: 72%;
     min-width: 1000px;
     padding: 20px 20px 20px 20px;
+    max-width: 1300px;
 }
 
 .auto {
@@ -59,18 +61,30 @@ a:hover {
     z-index: 1;    
 }
 
-#splash {
+#splash, #error {
     background-color: transparent;
     background-image: url('../media/sunflower_splash.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
     background-attachment: fixed;
+    max-height: 1050px;
+}
+
+#name {
+    color: #824b3a;
+    font-family: 'baron_neueregular';
+    display: inline;
+    font-size: 1.4em;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 0;
+    transition: 0.3s ease all;
 }
 
 .navbar {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 1);
     height: 50px;
     width: 100%;
     z-index: 2;
@@ -95,21 +109,12 @@ nav.navigation a {
     transition: 0.3s ease all;
 }
 
-nav.navigation a:hover {
+nav.navigation a:hover, #name:hover {
     color: #479e5d;
 }
 
 .last {
     margin-right: 0 !important;
-}
-
-#name {
-    color: #824b3a;
-    display: inline;
-    font-size: 1.3em;
-    float: left;
-    margin-top: 12px;
-    margin-bottom: 0;
 }
 
 img.thumbnail {
@@ -141,7 +146,7 @@ img.right {
 }
 
 section#development {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 section#design {
@@ -168,6 +173,7 @@ section#design {
 }
 
 .button {
+    font-family: 'Muli', Verdana, sans-serif;
     color: #fff;
     display: inline-block;
     font-size: 1.0em;
@@ -175,11 +181,13 @@ section#design {
     border-radius: 800px;
     padding: 7px 37px;   
     margin-top: 7px;
+    background-color: rgba(255, 255, 255, 0);
     transition: all 0.3s ease;
 }
 
 .button:hover {
     opacity: 0.4;
+    cursor: pointer;
 }
 
 #about {
@@ -193,7 +201,8 @@ section#design {
 
 img.profile {
     margin-right: 40px;
-    float: left;
+    display: inline-block;
+    width: 25%;
 }
 
 .white-heading {
@@ -203,20 +212,21 @@ img.profile {
 }
 
 section#about-info {
+    display: inline-block;
     color: #fff !important;
-    height: 250px;
-    /*overflow: scroll;*/
+    width:65%;
+    vertical-align: top;
 }
 
 #footer {
     color: #7d6969;
     background-color: #241a1a;
     text-align: center;
+    font-style: italic;
 }
 
 .overlay {
     display: none;
-/*    position: absolute;*/
     color: #fff;
     background-color: #5fa7ad;
     z-index: 3;
@@ -227,7 +237,8 @@ section#about-info {
 
 .overlay .content {
     width: 60%;
-    min-width: 800px;
+    max-width: 800px;
+    min-width: 600px;
 }
 
 .white {
@@ -240,6 +251,8 @@ section#about-info {
 
 .cancel {
     float: right;
+    padding-top: 15px;
+    padding: 15px 0px 15px 15px;
     transition: all 0.3s ease;
 }
 
@@ -251,11 +264,6 @@ section#about-info {
 img.resimg {
     display: inline-block;
     width: 100%;
-    transition: all 0.3s ease;
-}
-
-img.resimg:hover {
-    opacity: 0.8;
 }
 
 .hide {
@@ -267,6 +275,162 @@ img.resimg:hover {
 }
 
 section.description {
+    font-size: 1.3em;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+#contact {
+    color: #23537A;
+    background-color: #D3E0EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#contact-header {
+    color: #23537A;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+#contact .content {
+    text-align: center;
+}
+
+#contact-info {
+    font-size: 1.8em;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#socialmedia {
+    margin-bottom: 25px;
+}
+
+form {
+    color: #fff;
+}
+
+input[type="text"] {
+    color: #fff;
+    font-family: 'Muli', Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    border-bottom: 3px solid #fff;
+    padding-top: 2px;
+    padding-bottom: 6px;
+}
+
+input[type="text"]:focus {
+    color: #46417f;
+    font-family: 'Muli', Verdana, sans-serif;
+    border-bottom: 3px solid #46417f;
+    transition: all 0.3s ease;
+}
+
+textarea {
+    color: #fff;
+    padding: 0;
+    font-family: 'Muli', Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    border-bottom: 3px solid #fff;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+textarea:focus {
+    color: #46417f;
+    font-family: 'Muli', Verdana, sans-serif;
+    border: 3px solid #46417f;
+}
+
+input[type="text"], input[type="text"]:focus, textarea, textarea:focus {
+    font-size: 1em;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.reslink:hover {
+    opacity: 0.8;
+}
+
+.reslink {
+    border: 0;
+}
+
+#notes {
+    display: block;
+}
+
+#notes .content {
+    padding-top: 70px;
+}
+
+.icon {
+    border: none;
+    margin: 0 5px 0 5px;
+}
+
+@media screen and (max-width: 1350px) {
+    #splash {
+        background-size: 1350px auto;
+        height: 670px;
+    }
+
+    .welcome {
+        margin-top: 220px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .content, .overlay .content {
+        width: 90%;
+        min-width: 0;
+    }
+
+    .imgwrapper {
+        width: 48.7%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .imgwrapper {
+        width: 100%;
+    }
+
+    img.profile {
+        width: 250px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    section#about-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    #about .content {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar {
+        height: 150px;
+    }
+
+    nav.navigation a {
+        display: block;
+    }
+
+    #name {
+        margin-top: 23px;
+    }
 }
