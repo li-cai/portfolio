@@ -27,5 +27,5 @@ function hideDiv(id) {
 function hideProject(id) {
     $(id).fadeOut();
     $('#main').fadeIn();
-    window.location.href = '#work';
+    // window.scrollTo(0, $('#devHeading').offset().top);
 }
