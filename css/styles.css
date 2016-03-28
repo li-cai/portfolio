@@ -242,6 +242,8 @@ section#about-info {
 }
 
 .white {
+    width: 85%;
+    line-height: 0.9;
     color: #fff;
     display: inline-block;
     margin-top: 0;
@@ -251,8 +253,7 @@ section#about-info {
 
 .cancel {
     float: right;
-    padding-top: 15px;
-    padding: 15px 0px 15px 15px;
+    padding-left: 15px;
     transition: all 0.3s ease;
 }
 
