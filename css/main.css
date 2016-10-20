@@ -32,7 +32,7 @@ a:hover {
 
 .heading {
     margin-top: 40px;
-    margin-bottom: 2px;
+    margin-bottom: 20px;
 }
 
 .subtitle {
@@ -50,8 +50,9 @@ a:hover {
     margin: auto;
     width: 72%;
     min-width: 1000px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     max-width: 1300px;
+    box-sizing: border-box;
 }
 
 .auto {
@@ -142,10 +143,10 @@ img.right {
 }
 
 #work {
-    background-color: #f7ecec;
+    background-color: #f7e7e0;
 }
 
-section#development {
+#development {
     margin: 70px 0;
 }
 
@@ -211,7 +212,7 @@ img.profile {
     margin-bottom: 0;
 }
 
-section#about-info {
+#about-info {
     display: inline-block;
     color: #fff !important;
     width:65%;
@@ -374,64 +375,4 @@ input[type="text"], input[type="text"]:focus, textarea, textarea:focus {
 .icon {
     border: none;
     margin: 0 5px 0 5px;
-}
-
-@media screen and (max-width: 1350px) {
-    #splash {
-        background-size: 1350px auto;
-        height: 670px;
-    }
-
-    .welcome {
-        margin-top: 220px;
-    }
-}
-
-@media screen and (max-width: 1090px) {
-    .content, .overlay .content {
-        width: 90%;
-        min-width: 0;
-    }
-
-    .imgwrapper {
-        width: 48.7%;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .imgwrapper {
-        width: 100%;
-    }
-
-    img.profile {
-        width: 250px;
-        margin-bottom: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    section#about-info {
-        width: 100%;
-        text-align: center;
-    }
-
-    #about .content {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .navbar {
-        height: 150px;
-    }
-
-    nav.navigation a {
-        display: block;
-    }
-
-    #name {
-        margin-top: 23px;
-    }
 }

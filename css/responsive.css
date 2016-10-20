@@ -1,0 +1,70 @@
+@media screen and (max-width: 1350px) {
+    #splash {
+        background-size: 1350px auto;
+        height: 670px;
+    }
+
+    .welcome {
+        margin-top: 220px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .content, .overlay .content {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        min-width: 0;
+    }
+
+    #devHeading {
+        text-align: center;
+    }
+
+    .imgwrapper {
+        width: 48.7%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .imgwrapper {
+        width: 100%;
+    }
+
+    img.profile {
+        width: 250px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #development {
+        margin: 0 0 20px;
+    }
+
+    #devHeading {
+        font-size: 2.4em;
+        margin-top: 5px;
+    }
+
+    #about-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    #work .content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navigation {
+        display: none;
+    }
+
+    nav.navigation a {
+        display: block;
+    }
+}
