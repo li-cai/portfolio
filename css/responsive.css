@@ -5,7 +5,7 @@
     }
 
     .welcome {
-        margin-top: 220px;
+        margin-top: 210px;
     }
 }
 
@@ -15,6 +15,11 @@
         padding-left: 30px;
         padding-right: 30px;
         min-width: 0;
+    }
+
+    #splash .content {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     #devHeading {
@@ -54,11 +59,12 @@
     }
 
     #work .content {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
+/* iPhone */
 @media screen and (max-width: 550px) {
     .navigation {
         display: none;
@@ -66,5 +72,13 @@
 
     nav.navigation a {
         display: block;
+    }
+
+    .welcome {
+        font-size: 2.7em;
+    }
+
+    .blurb {
+        font-size: 1em;
     }
 }
