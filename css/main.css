@@ -221,6 +221,10 @@ img.profile {
     vertical-align: top;
 }
 
+#about-info p {
+    font-size: 1em;
+}
+
 #footer {
     color: #7d6969;
     background-color: #241a1a;
@@ -305,8 +309,8 @@ section.description {
 #contact-info {
     font-size: 1.8em;
     font-style: italic;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-top: 12px;
+    margin-bottom: 45px;
 }
 
 #socialmedia {
@@ -376,6 +380,7 @@ input[type="text"], input[type="text"]:focus, textarea, textarea:focus {
 }
 
 .icon {
+    display: inline-block;
     border: none;
-    margin: 0 5px 0 5px;
+    margin: 0 3px;
 }

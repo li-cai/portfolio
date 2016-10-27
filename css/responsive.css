@@ -74,11 +74,24 @@
         display: block;
     }
 
+    #about-info p {
+        text-align: justify;
+    }
+
     .welcome {
         font-size: 2.7em;
     }
 
     .blurb {
         font-size: 1em;
+    }
+
+    .icon img {
+        display: block;
+        width: 40px;
+    }
+
+    #footer .content {
+        padding: 15px;
     }
 }
