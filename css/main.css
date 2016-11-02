@@ -263,8 +263,8 @@ img.profile {
 
 .cancel {
     flex: 0 0 auto;
-    height: 48px;
-    padding-left: 15px;
+    height: 45px;
+    padding-left: 20px;
     transition: all 0.3s ease;
 }
 
@@ -286,10 +286,10 @@ img.resimg {
     background-color: #5fad8c;
 }
 
-section.description {
+.description {
     font-size: 1.2em;
     line-height: 1.4;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -336,6 +336,31 @@ section.description {
 
 .white {
     color: #fff;
+}
+
+.projectLinks {
+    font-size: 1.4em;
+    padding: 10px 0 25px;
+}
+
+.projectLink {
+    border: none;
+}
+
+.projectLink-text {
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+
+.projectLink-img {
+    display: inline-block;
+    width: 30px;
+    vertical-align: middle;
+    padding-left: 3px;
+}
+
+.projectLink-separator {
+    padding: 0 8px;
 }
 
 form {
