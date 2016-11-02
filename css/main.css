@@ -77,16 +77,14 @@ a:hover {
     font-family: 'baron_neueregular';
     display: inline;
     font-size: 1.4em;
-    float: left;
-    margin-top: 12px;
     margin-bottom: 0;
+    border: none;
     transition: 0.3s ease all;
 }
 
 .navbar {
     position: fixed;
     background-color: #fbfbfb;
-    height: 50px;
     width: 100%;
     z-index: 2;
 }
@@ -96,12 +94,12 @@ a:hover {
     padding-bottom: 0;
 }
 
-nav.navigation {
+.navigation {
     float: right;
     margin-top: 18px;
 }
 
-nav.navigation a {
+.navigation a {
     color: #6e2b34;
     text-decoration: none;
     border-bottom: none;
@@ -110,8 +108,23 @@ nav.navigation a {
     transition: 0.3s ease all;
 }
 
-nav.navigation a:hover, #name:hover {
+.navigation a:hover, #name:hover {
     color: #479e5d;
+}
+
+.navbar-bar {
+    display: inline-block;
+    padding: 11px 0;
+}
+
+.hamburger {
+    display: none;
+    float: right;
+    border: none;
+}
+
+.hamburgerIcon {
+    height: 29px;
 }
 
 .last {
@@ -315,6 +328,10 @@ section.description {
 
 #socialmedia {
     margin-bottom: 25px;
+}
+
+.projectHeading {
+    text-transform: lowercase;
 }
 
 form {

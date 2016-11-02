@@ -17,6 +17,8 @@ function showDiv(id) {
     $('#main').fadeOut();
     $(id).fadeIn();
     window.scrollTo(0, 0);
+
+    hideDropdownMenu('#navbar-menu');
 }
 
 function hideDiv(id) {
@@ -28,4 +30,16 @@ function hideProject(id) {
     $(id).fadeOut();
     $('#main').fadeIn();
     // window.scrollTo(0, $('#devHeading').offset().top);
+}
+
+function showDropdownMenu(id) {
+    $(id).addClass('dropdown');
+}
+
+function hideDropdownMenu(id) {
+    $(id).removeClass('dropdown');
+}
+
+function toggleDropdownMenu(id) {
+    $(id).toggleClass('dropdown');
 }

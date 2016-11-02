@@ -66,19 +66,54 @@
 
 /* iPhone */
 @media screen and (max-width: 550px) {
-    .navigation {
-        display: none;
+    .navbar .content {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    nav.navigation a {
+    .navigation {
+        float: none;
+        margin-top: 0;
+        max-height: 0;
+        padding: 0;
+        transition: all 0.5s ease;    
+    }
+
+    .navigation * {
+        opacity: 0 !important;
+        transition: opacity 0.3s ease !important;
+    }
+
+    .navigation.dropdown {
+        padding: 12px 0;
+        max-height: 187px;
+        border-top: 1px solid #824b3a;
+    }
+
+    .navigation.dropdown * {
+        opacity: 1 !important;
+    }    
+
+    .navbar-bar {
         display: block;
+    }
+
+    .navigation a {
+        display: block;
+        margin: 0;
+        padding: 9px 0;
+        font-size: 18px;
+    }
+
+    .hamburger {
+        display: inline-block;
     }
 
     #about-info p {
         text-align: justify;
     }
 
-    .welcome {
+    .welcome, .projectHeading {
         font-size: 2.7em;
     }
 
