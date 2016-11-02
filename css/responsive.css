@@ -129,4 +129,12 @@
     #footer .content {
         padding: 15px;
     }
+
+    .projectHeading {
+        font-size: 2.5em;
+    }
+
+    .cancel {
+        height: 35px;
+    }
 }

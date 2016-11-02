@@ -261,18 +261,9 @@ img.profile {
     min-width: 600px;
 }
 
-.white {
-    width: 85%;
-    line-height: 0.9;
-    color: #fff;
-    display: inline-block;
-    margin-top: 0;
-    font-size: 4em;
-    margin-bottom: 30px;
-}
-
 .cancel {
-    float: right;
+    flex: 0 0 auto;
+    height: 48px;
     padding-left: 15px;
     transition: all 0.3s ease;
 }
@@ -330,8 +321,21 @@ section.description {
     margin-bottom: 25px;
 }
 
+.projectHeader {
+    display: flex;
+    margin-bottom: 30px;
+}
+
 .projectHeading {
+    flex: 1 1 auto;
     text-transform: lowercase;
+    line-height: 0.9;
+    margin: 0;
+    font-size: 3.5em;
+}
+
+.white {
+    color: #fff;
 }
 
 form {
