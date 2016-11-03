@@ -98,7 +98,13 @@
       />
       <section class="description">
         <p>
-          An Canvas-based audio visualizer.
+          Technologies: JavaScript, HTML/CSS, HTML5 Canvas
+        </p>
+        <p>
+          This audio visualizer web app explores various data visualizations of audio frequency. I chose to divide the range of frequency into 4 parts which are visualized as 4 concentric circles. As a result, it’s easier for the user to see a visual separation that matches the auditory separation. For instance, you can clearly see activity on the outermost circle when you hear higher frequencies.
+        </p>
+        <p>
+          There are 3 types of visualizations: “Circle”, “Bezier Curve”, and “Wheel”. Also, you can toggle whether you’d like to visualize frequency or waveform data.
         </p>
       </section>
     </div>
@@ -107,7 +113,7 @@
   <div id="koipond" class="wrapper overlay">
     <div class="content">
       <div class="projectHeader">
-        <h1 class="projectHeading white">koi pond</h1>
+        <h1 class="projectHeading white">Koi Pond</h1>
         <img class="cancel"
           src="media/cancel.png"
           alt="Cancel Icon"
@@ -131,9 +137,19 @@
       />
       <section class="description">
         <p>
-          A natural simulation of a Koi Pond. It is designed to be a relaxing
-          experience that simulates Koi swimming in the pond and cherry blossoms
-          floating on the surface of the water.
+          Technologies: JavaScript (module pattern), HTML/CSS, HTML5 Canvas
+        </p>
+        <p>
+          An interactive natural simulation of a koi pond where you can “draw” flower petals in the water.
+        </p>
+        <p>
+          The Koi are composed of a “body” shape and a “tail” shape that oscillates based on the speed and direction it’s moving in. The koi move based on steering algorithms that “steer” each koi to the center of the screen if it moves too far off. A simple particle system is also implemented to create the effect of “bubbles” trailing behind Koi as they swim. Shadows are also drawn on the canvas to give the effect of depth.
+        </p>
+        <p>
+          Holding “Shift” and dragging your mouse across the screen allows you to draw flower petals in the water. An algorithm to control the movement of each petal was used also to give the effect of them drifting in the water.
+        </p>
+        <p>
+          The canvas is also drawn over the entire window and is responsive to provide a more immersive experience.
         </p>
       </section>
     </div>
@@ -157,9 +173,15 @@
       </div>
       <img src="media/toolshare01.jpg" alt="ToolShare" class="resimg" />
       <section class="description">
-        <p>ToolShare is a web-based system for facilitating the sharing of tools within communities. I worked on this project as a part of a team of five Software Engineering students. Our ToolShare system supports many features such as user registration, tool registration, tool reservation, messaging, and communities for sharing called ShareZones.</p>
-        <p>ToolShare was developed with <strong>Django</strong> using <strong>Python</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>SQLite</strong> and <strong>SVN</strong> for version control. In addition, we used <strong>BootStrap</strong> to assist with responsive design. The system was built after going through a software development cycle of requirements analysis, modeling, construction, testing, and deployment for two releases in four months. We also wrote comprehensive documentation for our system including the initial plan with a milestone schedule, the requirements spreadsheet with user stories and priority assessments, the design document with <strong>UML</strong> diagrams, and the test plan tracker. My team had weekly meetings and managed our sprints with <strong>Trello</strong>.</p>
-        <p>Through working on this project, I gained experience working with a <strong>MVC</strong> framework. In addition, I wrote numerous unit tests, participated in code reviews, went through cross-team beta testing, and conducted acceptance tests.</p>
+        <p>
+          ToolShare is a web-based system for facilitating the sharing of tools within communities. I worked on this project as a part of a team of five Software Engineering students. Our ToolShare system supports many features such as user registration, tool registration, tool reservation, messaging, and communities for sharing called ShareZones.
+        </p>
+        <p>
+          ToolShare was developed with <strong>Django</strong> using <strong>Python</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>SQLite</strong> and <strong>SVN</strong> for version control. In addition, we used <strong>BootStrap</strong> to assist with responsive design. The system was built after going through a software development cycle of requirements analysis, modeling, construction, testing, and deployment for two releases in four months. We also wrote comprehensive documentation for our system including the initial plan with a milestone schedule, the requirements spreadsheet with user stories and priority assessments, the design document with <strong>UML</strong> diagrams, and the test plan tracker. My team had weekly meetings and managed our sprints with <strong>Trello</strong>.
+        </p>
+        <p>
+          Through working on this project, I gained experience working with a <strong>MVC</strong> framework. In addition, I wrote numerous unit tests, participated in code reviews, went through cross-team beta testing, and conducted acceptance tests.
+        </p>
       </section>
     </div>
   </div>
@@ -182,7 +204,8 @@
       </div>
       <img src="media/synonymy.jpg" alt="Synonymy" class="resimg" />
       <section class="description">
-        <p>Synonymy is an iOS application written in Objective-C that helps users rephrase sentences. Users can enter a sentence and swap words in the sentence with synonyms generated by the Big Huge Thesaurus API. Additional features include a history of sentences, favorites list, and the synonym picker.</p>
+        <p>Synonymy is an iOS app built with Objective-C that helps users rephrase sentences by allowing them to enter a sentence, then select words in the sentence to turn into its synonyms.</p>
+        <p>The Big Huge Thesaurus API was used to get synonyms. Challenges included working with NSAttributedText and figuring out how to store and update which synonym should be displayed currently.</p>
       </section>
     </div>
   </div>
