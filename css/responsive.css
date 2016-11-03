@@ -82,12 +82,14 @@
     .navigation * {
         opacity: 0 !important;
         transition: opacity 0.3s ease !important;
+        pointer-events: none;
     }
 
     .navigation.dropdown {
         padding: 12px 0;
         max-height: 187px;
         border-top: 1px solid #824b3a;
+        pointer-events: auto;
     }
 
     .navigation.dropdown * {
