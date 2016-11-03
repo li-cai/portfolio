@@ -1,5 +1,6 @@
 body {
     font-family: 'Muli', Verdana, sans-serif;
+    font-weight: 300;
     margin: 0;
     color: #6e2b34;
     background-color: #5fa7ad;
@@ -287,7 +288,7 @@ img.resimg {
 }
 
 .description {
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.4;
     padding-top: 10px;
     padding-bottom: 10px;
