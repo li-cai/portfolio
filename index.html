@@ -64,7 +64,7 @@
       />
       <section class="description">
         <p>
-          Technologies: JavaScript, HTML/CSS, HTML5 Canvas
+          <span class="bold">Technologies</span>: JavaScript, HTML/CSS, HTML5 Canvas
         </p>
         <p>
           An interactive wine and food pairing infographic that helps users discover different types of wines as well as recipes that pair well with the wine.
@@ -150,6 +150,43 @@
         </p>
         <p>
           The canvas is also drawn over the entire window and is responsive to provide a more immersive experience.
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <div id="bloxeo" class="wrapper overlay">
+    <div class="content">
+      <div class="projectHeader">
+        <h1 class="projectHeading white">Bloxeo</h1>
+        <img class="cancel"
+          src="media/cancel.png"
+          alt="Cancel Icon"
+          onclick="hideProject('#bloxeo')"
+        />
+      </div>
+      <div class="projectLinks">
+        <a class="projectLink" href="media/bloxeo_deck.pdf" target="_blank">
+          <span class="projectLink-text">Deck</span>
+          <img class="projectLink-img"src="media/deck.png" alt="Deck Icon" />
+        </a>
+      </div>
+      <img src="media/bloxeo.png" alt="Screenshot of Bloxeo" class="resimg" />
+      <section class="description">
+        <p>
+          <span class="bold">Technologies</span>: React, Flux, Grunt, HTML/CSS
+        </p>
+        <p>
+          Bloxeo is a wep app for real-time collaborative brainstorming.
+        </p>
+        <p>
+          This project was developed by a team of 13 engineering students and 6 design students. To help us stay organized and productive working with such a large team, we followed the Scrum process methodology and used Slack for team communication. Also, we divided into 3 smaller Scrum teams: a front-end team, a back-end team, and a design/branding team.
+        </p>
+        <p>
+          I worked on the front-end team to help build the interface of Bloxeo using React and Flux. This was my first time working with these technologies which have become my favorite to work with.
+        </p>
+        <p>
+          I worked significantly on the voting section of the app where all users go through the ideas and vote for the ones they like.
         </p>
       </section>
     </div>
@@ -248,30 +285,6 @@
     </div>
   </div>
 
-  <div id="chess" class="wrapper overlay">
-    <div class="content">
-      <div class="projectHeader">
-        <h1 class="projectHeading white">Puzzle Solver</h1>
-        <img src="media/cancel.png"
-          alt="Cancel Icon"
-          class="cancel" 
-          onclick="hideProject('#chess')"
-        />
-      </div>
-      <div class="projectLinks">
-        <a class="projectLink" href="https://github.com/li-cai/chess-solitaire" target="_blank">
-          <span class="projectLink-text">Github</span>
-          <img class="projectLink-img" src="media/github-white.png" alt="Github" />
-        </a>
-      </div>
-      <img src="media/chess.png" alt="Chess Solitaire" class="resimg" />
-      <section class="description">
-        <p>For this project, I created a Generic Puzzle Solver written in <strong>Java</strong> which uses the <strong>BFS algorithm</strong> to solve puzzles in the fewest number of steps.</p>
-        <p>The focus of this project was object-oriented programming, inheritance, and separation of concerns using MVC. A generic puzzle interface and solver was implemented to work with three different types of puzzles. The Chess Solitaire puzzle has a <strong>Swing</strong> GUI that creates a game board from a text file and allows the user to interact with the GUI to solve the puzzle. The user also has the option to reset to the original configuration or advance to the next step of the optimal solution by clicking "Hint".</p>
-      </section>
-    </div>
-  </div>
-
   <div id="march" class="wrapper overlay">
     <div class="content">
       <img src="media/cancel.png" alt="Cancel Icon" class="cancel" 
@@ -355,6 +368,9 @@
           <div class="imgwrapper" onclick="showDiv('#audiovisualizer')">
             <img src="media/thumb-audiovisualizer.png" class="thumbnail" alt="Audio Visualizer Thumbnail"/>
           </div>
+          <div class="imgwrapper" onclick="showDiv('#bloxeo')">
+            <img src="media/thumb-bloxeo.PNG" class="thumbnail" alt="Bloxeo Thumbnail"/>
+          </div>
           <div class="imgwrapper" onclick="showDiv('#synonymy')">
             <img src="media/thumb-synonymy.jpg" class="thumbnail" alt="Synonymy Thumbnail"/>
           </div>
@@ -366,9 +382,6 @@
           </div>
           <div class="imgwrapper" onclick="showDiv('#stem')">
             <img src="media/thumb-stem.jpg" class="thumbnail" alt="STEM Quiz Thumbnail" />
-          </div>
-          <div class="imgwrapper" onclick="showDiv('#chess')">
-            <img src="media/thumb-chess.jpg" class="thumbnail right" alt="Chess Solitaire Thumbnail" />
           </div>
         </section>
       </div>

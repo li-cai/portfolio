@@ -357,7 +357,7 @@ img.resimg {
     display: inline-block;
     width: 30px;
     vertical-align: middle;
-    padding-left: 2px;
+    padding-left: 1px;
 }
 
 .projectLink-separator {
