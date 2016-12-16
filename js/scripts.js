@@ -1,6 +1,5 @@
 $(document).ready(function() {
     $('a[href^="#"]').on('click', function(event) {
-        
         var target = $($(this).attr('href'));
 
         if (target.length) {
@@ -28,8 +27,9 @@ function hideDiv(id) {
 
 function hideProject(id) {
     $(id).fadeOut();
-    $('#main').fadeIn();
-    // window.scrollTo(0, $('#devHeading').offset().top);
+    $('#main').fadeIn(400, function() {
+        window.scrollTo(0, 650); 
+    });
 }
 
 function showDropdownMenu(id) {
