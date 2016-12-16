@@ -23,7 +23,7 @@ h2 {
 a {
     color: #fff;
     text-decoration: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
     transition: all 0.3s ease;
 }
 
@@ -355,7 +355,7 @@ img.resimg {
 
 .projectLink-img {
     display: inline-block;
-    width: 30px;
+    width: 26px;
     vertical-align: middle;
     padding-left: 1px;
 }

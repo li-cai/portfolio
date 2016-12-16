@@ -37,6 +37,93 @@
   </div>
 
   <!-- WORK -->
+  <div id="salesforce" class="wrapper overlay">
+    <div class="content">
+      <div class="projectHeader">
+        <h1 class="projectHeading white">Salesforce</h1>
+        <img class="cancel" 
+          src="media/cancel.png" 
+          alt="Cancel Icon" 
+          onclick="hideProject('#salesforce')"
+        />
+      </div>
+      <img src="media/iotcloud.jpg" alt="IoT Cloud" class="resimg" />
+      <section class="description">
+        <p>
+          <strong>Technologies:</strong> React, JavaScript, CSS
+        </p>
+        <p>
+          In summer 2016, I had an awesome experience as a <strong>UX Engineer Intern</strong> on the <strong>IoT Cloud</strong> team at Salesforce.
+        </p>
+        <p>
+           IoT Cloud is a relatively new product that was released to the public in January 2016. As a UX Engineer Intern, I worked on designing and developing solutions for UX pain points in the product.
+        </p>
+        <p>
+          During my internship, I designed an improved experience for writing expressions by going through iterations of wireframing, Invision prototyping and usability testing. Finally, I built a reusable, well unit-tested React component of the expression pill input I designed and integrated it into the production IoT Cloud product.
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <div id="concurlabs" class="wrapper overlay">
+    <div class="content">
+      <div class="projectHeader">
+        <h1 class="projectHeading white">Concur Labs</h1>
+        <img class="cancel" 
+          src="media/cancel.png" 
+          alt="Cancel Icon" 
+          onclick="hideProject('#concurlabs')"
+        />
+      </div>
+      <img src="media/personalcards.png" alt="IoT Cloud" class="resimg" />
+      <section class="description">
+        <p>
+          <strong>Technologies:</strong> React, Redux, Webpack, JavaScript, CSS
+        </p>
+        <p>
+          As an intern on the Concur Labs team, I developed prototypes built on top of the Concur platform for idea exploration.
+        </p>
+        <p>
+           The first prototype I worked on is called Personal Cards.
+           The Personal Cards app pulls in a user’s recent payment transactions using 
+           the Plaid API and allows them to easily expense it via Concur (using the 
+           Concur API). I built the entire frontend of the app using React and Redux, and I gained experience setting up a frontend project from scratch using Webpack and React Hot Reloading. I collaborated on this project with a UX Design Intern and a full-time Software Engineer who worked on the backend of the app. The app was demo-ed to over 2000 people at the 2016 Concur Fusion Conference. 
+        </p>
+        <p>The second prototype I worked on is a Microsoft Outlook Add-In to help 
+users easily expense receipts found in their email. The frontend of this add-in was also built with React and Redux. The add-in is now available for download in the <a href="https://store.office.com/en-us/app.aspx?assetid=WA104380490" target="_blank"> Microsoft Office Store.</a></p>
+      </section>
+    </div>
+  </div>
+
+  <div id="compass" class="wrapper overlay">
+    <div class="content">
+      <div class="projectHeader">
+        <h1 class="projectHeading white">Compass</h1>
+        <img class="cancel" 
+          src="media/cancel.png"
+          alt="Cancel Icon" 
+          onclick="hideProject('#compass')"
+        />
+      </div>
+      <img src="media/mortgagecalculator.png" alt="Mortgage Calculator" class="resimg" />
+      <section class="description">
+        <p>
+          I interned at Compass, a real-estate technology startup, from Janury to August 2015. At Compass, Iworked alongside full-time  
+engineers doing much of the same work (fixing bugs and developing new 
+features). I worked with various different languages and technologies 
+including Objective-C, AngularJS, and Python.
+        </p>
+        <p>
+          One of the features I developed as the mortgage calculator in the Compass 
+iOS App which can be found in the App Store. The mortgage calculator is 
+on each listing, and helps calculate a monthly mortgage payment price 
+depending on parameters such as interest rate and term length as 
+configured by the user.
+        </p>
+      </section>
+    </div>
+  </div>
+
   <div id="winefoodpairing" class="wrapper overlay">
     <div class="content">
       <div class="projectHeader">
@@ -361,6 +448,15 @@
       <div class="content">
         <section id="development">
           <h1 id="devHeading" class="heading">Work</h1>
+          <div class="imgwrapper" onclick="showDiv('#salesforce')">
+            <img src="media/thumb-iotcloud.png" class="thumbnail" alt="IoT Cloud Thumbnail"/>
+          </div>
+          <div class="imgwrapper" onclick="showDiv('#concurlabs')">
+            <img src="media/thumb-concurlabs.png" class="thumbnail" alt="Concur Labs Thumbnail"/>
+          </div>
+          <div class="imgwrapper" onclick="showDiv('#compass')">
+            <img src="media/thumb-compass.png" class="thumbnail" alt="Compass Thumbnail" />
+          </div>
           <div class="imgwrapper" onclick="showDiv('#koipond')">
             <img src="media/thumb-koipond.png" class="thumbnail" alt="Koi Pond Thumbnail"/>
           </div>
@@ -378,12 +474,6 @@
           </div>
           <div class="imgwrapper" onclick="showDiv('#toolshare')">
             <img src="media/thumb-toolshare.jpg" class="thumbnail" alt="ToolShare Thumbnail"/>
-          </div>
-          <div class="imgwrapper" onclick="showDiv('#miv')">
-            <img src="media/thumb-miv.jpg" class="thumbnail" alt="Medical Image Viewer Thumbnail" />
-          </div>
-          <div class="imgwrapper" onclick="showDiv('#stem')">
-            <img src="media/thumb-stem.jpg" class="thumbnail" alt="STEM Quiz Thumbnail" />
           </div>
         </section>
       </div>
