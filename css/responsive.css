@@ -89,11 +89,11 @@
         padding: 12px 0;
         max-height: 187px;
         border-top: 1px solid #824b3a;
-        pointer-events: auto;
     }
 
     .navigation.dropdown * {
         opacity: 1 !important;
+        pointer-events: auto;
     }    
 
     .navbar-bar {
