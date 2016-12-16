@@ -28,7 +28,7 @@ a {
 }
 
 a:hover {
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 .heading {
@@ -110,7 +110,7 @@ a:hover {
 }
 
 .navigation a:hover, #name:hover {
-    color: #479e5d;
+    color: #31994B;
 }
 
 .navbar-bar {
@@ -149,7 +149,7 @@ a:hover {
 
 img.thumbnail:hover {
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.9;
     transform: scale(1.05);
 }
 
@@ -203,7 +203,7 @@ section#design {
 }
 
 .button:hover {
-    opacity: 0.4;
+    opacity: 0.7;
     cursor: pointer;
 }
 
